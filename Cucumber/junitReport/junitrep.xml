@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="32.724804">
+<testcase classname="To validate the Login Functionality of Amazon application" name="To validate login by passing values" time="13.636912">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.AmazonLogin.to_click_the_continue_button(AmazonLogin.java:41)&#13;&#10;&#9;at ✽.To click the continue button(src/test/resources/Amazon.feature:13)&#13;&#10;"><![CDATA[And To launch the Amazon Url................................................passed
+And To click the signin button..............................................passed
+And To pass the Value in Email or Mobile text Field.........................passed
+And To click the continue button............................................failed
+And To pass  password value in the Password text field......................skipped
+And To click the Signin Button..............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.AmazonLogin.to_click_the_continue_button(AmazonLogin.java:41)
+	at ✽.To click the continue button(src/test/resources/Amazon.feature:13)
+]]></failure>
+</testcase>
+<testcase classname="To validate the Login Functionality of Facebook application" name="To validate login with valid username and valid password" time="4.65797">
+<system-out><![CDATA[And To launch the Facebook Url..............................................passed
+And To pass the Valid Email to the Email text Field.........................passed
+And To pass  the Valid password to the Password text field..................passed
+And To click the Login Button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login Functionality of Facebook application" name="To pass the positive and negative testcases to validate the login function" time="4.596278">
+<system-out><![CDATA[And Launch the Facebook Url.................................................passed
+And pass the positive and negative "selen12" to the Email text Field........passed
+And pass the positive and negative "rty@456"to the Password text field......passed
+And click the Login Button..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login Functionality of Facebook application" name="To pass the positive and negative testcases to validate the login function 2" time="5.067171">
+<system-out><![CDATA[And Launch the Facebook Url.................................................passed
+And pass the positive and negative "one@er" to the Email text Field.........passed
+And pass the positive and negative "java789"to the Password text field......passed
+And click the Login Button..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login Functionality of Facebook application" name="To pass the positive and negative testcases to validate the login function 3" time="4.766473">
+<system-out><![CDATA[And Launch the Facebook Url.................................................passed
+And pass the positive and negative "python4" to the Email text Field........passed
+And pass the positive and negative "photon45"to the Password text field.....passed
+And click the Login Button..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
